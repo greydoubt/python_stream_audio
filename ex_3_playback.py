@@ -1,3 +1,12 @@
+
+
+#pip install httpx pygame pydub librosa
+
+
+import pygame
+pygame.mixer.init(frequency=16000, size=-16, channels=1)
+
+
 import io
 from pydub import AudioSegment
 
